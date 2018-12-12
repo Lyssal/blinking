@@ -1,0 +1,12 @@
+{
+  "entrypoints": {
+    "blinking": {
+      "css": [
+        "blinking.css"
+      ],
+      "js": [
+        "blinking.amd.js"
+      ]
+    }
+  }
+}
