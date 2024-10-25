@@ -23,6 +23,8 @@ export default class BlinkingElement {
   start() {
     this.intLayerStyles();
     this.element.insertAdjacentHTML('beforeend', this.layer.outerHTML);
+
+    this.layer = this.element.querySelector("div." + Blinking.cssClass + ":last-child");
   }
 
   /**

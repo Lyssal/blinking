@@ -1,6 +1,6 @@
 {
   "name": "@lyssal/blinking",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A service to do blinking an element.",
   "main": "lib/blinking.js",
   "scripts": {
@@ -18,11 +18,8 @@
   },
   "homepage": "https://github.com/Lyssal/blinking",
   "devDependencies": {
-    "@symfony/webpack-encore": "^0.22.2",
-    "babel-eslint": "^8.2.1",
-    "eslint": "^5.9.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-import": "^2.14.0"
+    "@symfony/webpack-encore": "^5",
+    "sass": "^1.80.4",
+    "sass-loader": "^16.0.1"
   }
 }
